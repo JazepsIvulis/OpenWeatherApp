@@ -9,21 +9,36 @@
 /* Begin PBXBuildFile section */
 		A25118732A1164020010C28E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25118722A1164020010C28E /* AppDelegate.swift */; };
 		A25118752A1164020010C28E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25118742A1164020010C28E /* SceneDelegate.swift */; };
-		A25118772A1164020010C28E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25118762A1164020010C28E /* ViewController.swift */; };
+		A25118772A1164020010C28E /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25118762A1164020010C28E /* WeatherViewController.swift */; };
 		A251187A2A1164020010C28E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A25118782A1164020010C28E /* Main.storyboard */; };
 		A251187C2A1164040010C28E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A251187B2A1164040010C28E /* Assets.xcassets */; };
 		A251187F2A1164040010C28E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A251187D2A1164040010C28E /* LaunchScreen.storyboard */; };
+		A251188A2A1164970010C28E /* ChangeCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25118892A1164970010C28E /* ChangeCityViewController.swift */; };
+		A251188E2A116F900010C28E /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A251188D2A116F900010C28E /* DesignableTextField.swift */; };
+		A26F8BC22A12A2EC00907BC2 /* BounceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26F8BC12A12A2EC00907BC2 /* BounceButton.swift */; };
+		A26F8BC42A12A4B600907BC2 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26F8BC32A12A4B600907BC2 /* DesignableButton.swift */; };
+		A2A165442A12AAC400A144D3 /* Montserrat-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A2A165432A12AAC400A144D3 /* Montserrat-Italic-VariableFont_wght.ttf */; };
+		A2A165472A12BB0200A144D3 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = A2A165462A12BB0200A144D3 /* Alamofire */; };
+		A2A165492A12BDB200A144D3 /* OpenWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A165482A12BDB200A144D3 /* OpenWeather.swift */; };
+		A2A1654B2A12BE1A00A144D3 /* OpenWeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A1654A2A12BE1A00A144D3 /* OpenWeatherModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A251186F2A1164020010C28E /* OpenWeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenWeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A25118722A1164020010C28E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A25118742A1164020010C28E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A25118762A1164020010C28E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A25118762A1164020010C28E /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 		A25118792A1164020010C28E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A251187B2A1164040010C28E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A251187E2A1164040010C28E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A25118802A1164040010C28E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A25118892A1164970010C28E /* ChangeCityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeCityViewController.swift; sourceTree = "<group>"; };
+		A251188D2A116F900010C28E /* DesignableTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableTextField.swift; sourceTree = "<group>"; };
+		A26F8BC12A12A2EC00907BC2 /* BounceButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceButton.swift; sourceTree = "<group>"; };
+		A26F8BC32A12A4B600907BC2 /* DesignableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
+		A2A165432A12AAC400A144D3 /* Montserrat-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		A2A165482A12BDB200A144D3 /* OpenWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWeather.swift; sourceTree = "<group>"; };
+		A2A1654A2A12BE1A00A144D3 /* OpenWeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenWeatherModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2A165472A12BB0200A144D3 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +72,62 @@
 		A25118712A1164020010C28E /* OpenWeatherApp */ = {
 			isa = PBXGroup;
 			children = (
-				A25118722A1164020010C28E /* AppDelegate.swift */,
-				A25118742A1164020010C28E /* SceneDelegate.swift */,
-				A25118762A1164020010C28E /* ViewController.swift */,
-				A25118782A1164020010C28E /* Main.storyboard */,
+				A25118862A1164150010C28E /* AppDelegate */,
+				A251188C2A1164BD0010C28E /* ExtraResource */,
+				A251188B2A1164AD0010C28E /* Model */,
+				A25118882A1164340010C28E /* View */,
+				A25118872A1164290010C28E /* Controller */,
 				A251187B2A1164040010C28E /* Assets.xcassets */,
-				A251187D2A1164040010C28E /* LaunchScreen.storyboard */,
 				A25118802A1164040010C28E /* Info.plist */,
 			);
 			path = OpenWeatherApp;
+			sourceTree = "<group>";
+		};
+		A25118862A1164150010C28E /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				A25118722A1164020010C28E /* AppDelegate.swift */,
+				A25118742A1164020010C28E /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		A25118872A1164290010C28E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A25118762A1164020010C28E /* WeatherViewController.swift */,
+				A25118892A1164970010C28E /* ChangeCityViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A25118882A1164340010C28E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A25118782A1164020010C28E /* Main.storyboard */,
+				A251187D2A1164040010C28E /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A251188B2A1164AD0010C28E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A2A165482A12BDB200A144D3 /* OpenWeather.swift */,
+				A2A1654A2A12BE1A00A144D3 /* OpenWeatherModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A251188C2A1164BD0010C28E /* ExtraResource */ = {
+			isa = PBXGroup;
+			children = (
+				A251188D2A116F900010C28E /* DesignableTextField.swift */,
+				A26F8BC12A12A2EC00907BC2 /* BounceButton.swift */,
+				A26F8BC32A12A4B600907BC2 /* DesignableButton.swift */,
+				A2A165432A12AAC400A144D3 /* Montserrat-Italic-VariableFont_wght.ttf */,
+			);
+			path = ExtraResource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +146,9 @@
 			dependencies = (
 			);
 			name = OpenWeatherApp;
+			packageProductDependencies = (
+				A2A165462A12BB0200A144D3 /* Alamofire */,
+			);
 			productName = OpenWeatherApp;
 			productReference = A251186F2A1164020010C28E /* OpenWeatherApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +177,9 @@
 				Base,
 			);
 			mainGroup = A25118662A1164020010C28E;
+			packageReferences = (
+				A2A165452A12BB0200A144D3 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = A25118702A1164020010C28E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +194,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2A165442A12AAC400A144D3 /* Montserrat-Italic-VariableFont_wght.ttf in Resources */,
 				A251187F2A1164040010C28E /* LaunchScreen.storyboard in Resources */,
 				A251187C2A1164040010C28E /* Assets.xcassets in Resources */,
 				A251187A2A1164020010C28E /* Main.storyboard in Resources */,
@@ -138,9 +208,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A25118772A1164020010C28E /* ViewController.swift in Sources */,
+				A25118772A1164020010C28E /* WeatherViewController.swift in Sources */,
 				A25118732A1164020010C28E /* AppDelegate.swift in Sources */,
+				A26F8BC42A12A4B600907BC2 /* DesignableButton.swift in Sources */,
+				A251188E2A116F900010C28E /* DesignableTextField.swift in Sources */,
 				A25118752A1164020010C28E /* SceneDelegate.swift in Sources */,
+				A251188A2A1164970010C28E /* ChangeCityViewController.swift in Sources */,
+				A2A165492A12BDB200A144D3 /* OpenWeather.swift in Sources */,
+				A26F8BC22A12A2EC00907BC2 /* BounceButton.swift in Sources */,
+				A2A1654B2A12BE1A00A144D3 /* OpenWeatherModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +366,8 @@
 				DEVELOPMENT_TEAM = LPBPD5BKCL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = OpenWeatherApp/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Need your location to present the weather";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Need your location to present the weather";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -318,6 +396,8 @@
 				DEVELOPMENT_TEAM = LPBPD5BKCL;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = OpenWeatherApp/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Need your location to present the weather";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Need your location to present the weather";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -358,6 +438,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A2A165452A12BB0200A144D3 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A2A165462A12BB0200A144D3 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A2A165452A12BB0200A144D3 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A25118672A1164020010C28E /* Project object */;
 }
